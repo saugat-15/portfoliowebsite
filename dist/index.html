@@ -1,43 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Saugat Giri | Web Developer & Photographer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- header -->
     <header id="header-home">
-        <div class="container">
-            <nav id="main-nav">
-                <img src="img/logo.png" alt="My portfolio" id="logo">
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-content">
-                <h1>I am Saugat Giri A <span class="txt-type" data-wait="3000"
-                        data-words='["Web Developer", "Photographer"]'></span></h1>
-                <p class="lead">I specialize in Web Development & Photography</p>
-                <a href="work.html" class="btn-light">View my Work</a>
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/initials_SG_black.png" alt="My portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I am Saugat Giri A
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Web Developer", "Photographer"]'
+            ></span>
+          </h1>
+          <p class="lead">I specialize in Web Development & Photography</p>
+          <a href="work.html" class="btn-light">View my Work</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- section A: specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">I Specialize In</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Photography as well as creating digital masterpieces for websites and
+          mobile applications.
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, quas praesentium! Incidunt dolores aliquid optio
+              corporis aperiam sint labore possimus?
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-desktop fa-2x"></i>
+            <h3>UI/UX</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, quas praesentium! Incidunt dolores aliquid optio
+              corporis aperiam sint labore possimus?
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-object-ungroup fa-2x"></i>
+            <h3>Visual Design</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, quas praesentium! Incidunt dolores aliquid optio
+              corporis aperiam sint labore possimus?
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-thumbs-up fa-2x"></i>
+            <h3>Interaction</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, quas praesentium! Incidunt dolores aliquid optio
+              corporis aperiam sint labore possimus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section B: stats -->
+    <section id="home-b" class="text-center py-2">
+      <div class="stats">
+        <div class="flex-box even">
+          <div><i class="fas fa-university fa-3x"></i></div>
+          <div class="stats-title">Education</div>
+          <div class="stats-number">Federation University</div>
+        </div>
+        <div class="flex-box odd">
+          <div><i class="fas fa-award fa-3x"></i></div>
+          <div class="stats-title">Major</div>
+          <div class="stats-number">Software Development</div>
+        </div>
+        <div class="flex-box even">
+          <div><i class="fas fa-hourglass-start fa-3x"></i></div>
+          <div class="stats-title">Semester</div>
+          <div class="stats-number">5th</div>
+        </div>
+        <div class="flex-box odd">
+          <div><i class="fas fa-code-branch fa-3x"></i></div>
+          <div class="stats-title">Projects Completed</div>
+          <div class="stats-number">10+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section C process section -->
+
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">My Creative Process</h2>
+        <div class="bottom-line"></div>
+          <p class="lead">
+            All of my UI/UX and design projects are based off of a practiced
+            formula to get the result that I am looking for.
+          </p>
+          <div class="process">
+              <div>
+                  <i class="fas fa-file-alt fa-4x process-icon my-2">
+                      <div class="process-step">1</div>
+                  </i>
+                  <h3>Discuss the project</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, modi!</p>
+
+                  
+              </div>
+              <div>
+                <i class="fas fa-desktop fa-4x process-icon my-2">
+                    <div class="process-step">2</div>
+                </i>
+                <h3>brainstorming and concept</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, modi!</p>
+
+                
+            </div>
+            <div>
+                <i class="fas fa-object-ungroup fa-4x process-icon my-2">
+                    <div class="process-step">3</div>
+                </i>
+                <h3>UI/UX planning</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, modi!</p>
+
+                
+            </div>
+            <div>
+                <i class="fas fa-thumbs-up fa-4x process-icon my-2">
+                    <div class="process-step">4</div>
+                </i>
+                <h3>Interaction</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, modi!</p>
+
+                
             </div>
         </div>
-    </header>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2019. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x">
+            <a href="https://www.linkedin.com/in/saugat-giri-66011513b/"></a>
+          </i>
+        </div>
+      </div>
+    </footer>
 
     <!-- Type Effect tutorial: https:/www.youtube.com/watch?v=POX3dT-pB4E -->
     <script src="js/typewriter.js"></script>
-</body>
-
+  </body>
 </html>
